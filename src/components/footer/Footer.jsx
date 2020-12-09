@@ -1,5 +1,6 @@
 import React from 'react';
+import styles from '../styles.css';
 
 export default function Footer() {
-  return <h1>footer</h1>;
+  return <div className={styles.footerArea}></div>;
 }
