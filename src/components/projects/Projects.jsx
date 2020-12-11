@@ -1,5 +1,10 @@
 import React from 'react';
+import styles from '../styles.css';
 
 export default function Projects() {
-  return <h1>Projects</h1>;
+  return (
+    <div>
+      <h1 className={styles.projectsArea}>Projects</h1>
+    </div>
+  );
 }

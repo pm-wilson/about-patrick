@@ -1,9 +1,14 @@
 :root {
-  --color1:  rgb(72, 72, 72);
-  --color2: white;
-  --color3: yellow;
+  --color1: rgb(72, 72, 72);
+  --color2: rgb(243, 245, 249);
+  --color3: rgb(255, 219, 21);
+  --color3transparent: rgba(255, 219, 21, .7);
+  --color4: rgb(181, 161, 151);
 
   --top-buffer: 200px;
+
+  --font-size-title-large: 80px;
+  --font-size-title-small: 30px;
 }
 
 body {
@@ -11,6 +16,7 @@ body {
 }
 
 .headerArea {
+  box-sizing: border-box;
   width: 100%;
   height: var(--top-buffer);
   background-color: var(--color1);
@@ -18,28 +24,78 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 10px solid var(--color3);
+  box-shadow: 0 10px 10px var(--color3transparent);
 }
 
 .nameAtTop {
   text-align: center;
-  font-size: 72px;
+  font-size: var(--font-size-title-large);
+  align-self: center;
 }
 
-.homeArea {
+.sitePages {
+  align-self: flex-end;
+  font-size: var(--font-size-title-small);
+  color: var(--color3);
+  margin-bottom: 10px;
+}
+
+.externalLinks {
+  align-self: flex-end;
+  font-size: var(--font-size-title-small);
+  color: var(--color3);
+  margin-bottom: 10px;
+}
+
+.headerLink {
+  color: var(--color3);
+  padding: 20px;
+}
+
+.headerPage {
+  color: var(--color3);
+  padding: 20px;
+  text-decoration: none;
+}
+
+.headerPage:hover {
+  color: var(--color1);
+  background-color: var(--color3transparent);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.currentPage, .currentPage:hover {
+  color: var(--color1);
+  background-color: var(--color3);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.headerLink:visited {
+  color: var(--color3transparent);
+}
+
+.homeArea, .contactArea, .aboutArea, .projectsArea {
   position: relative;
   top: var(--top-buffer);
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 24px
+  font-size: 24px;
 }
 
 .footerArea {
   width: 100%;
-  height: 50px;
+  height: 25px;
   background-color: var(--color1);
   color: var(--color2);
   position: fixed;
   bottom: 0;
   left: 0;
+  z-index: 1;
 }

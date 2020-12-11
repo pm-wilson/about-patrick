@@ -1,5 +1,10 @@
 import React from 'react';
+import styles from '../styles.css';
 
 export default function Contact() {
-  return <h1>contact</h1>;
+  return (
+    <div>
+      <h1 className={styles.contactArea}>Contact</h1>
+    </div>
+  );
 }
