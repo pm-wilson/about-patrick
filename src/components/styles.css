@@ -3,12 +3,16 @@
   --color2: rgb(243, 245, 249);
   --color3: rgb(255, 219, 21);
   --color3transparent: rgba(255, 219, 21, .7);
-  --color4: rgb(181, 161, 151);
-
+  --color4: rgb(181, 161, 151, 0.5);
+  --color5: rgb(0, 0, 0);
+  
   --top-buffer: 200px;
+  --bottom-buffer: 25px;
 
   --font-size-title-large: 80px;
   --font-size-title-small: 30px;
+
+  --content-width: 1100px;
 }
 
 body {
@@ -83,7 +87,7 @@ body {
 .homeArea, .contactArea, .aboutArea, .projectsArea {
   position: relative;
   top: var(--top-buffer);
-  width: 60%;
+  width: var(--content-width);
   margin-left: auto;
   margin-right: auto;
   font-size: 24px;
@@ -91,11 +95,15 @@ body {
 
 .footerArea {
   width: 100%;
-  height: 25px;
+  height: var(--bottom-buffer);
   background-color: var(--color1);
   color: var(--color2);
   position: fixed;
   bottom: 0;
   left: 0;
   z-index: 1;
+}
+
+.footerSpace {
+  padding-bottom: calc(var(--bottom-buffer) * 3);
 }
