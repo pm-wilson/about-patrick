@@ -1,0 +1,72 @@
+.gridSpace {
+  border-radius: 15px;
+}
+
+.gridSpace1 {
+  grid-area: 1 / 1 / 4 / 3;
+  border: 2px solid red;
+}
+
+.gridSpace2 {
+  grid-area: 1 / 3 / 2 / 5;
+  border: 2px solid green;
+}
+
+.gridSpace3 {
+  grid-area: 1 / 5 / 3 / 7;
+  border: 2px solid blue;
+}
+
+.gridSpace4 {
+  grid-area: 2 / 3 / 4 / 5;
+  border: 2px solid yellow;
+  
+}
+
+.gridSpace5 {
+  grid-area: 3 / 5 / 5 / 7;
+  border: 2px solid brown;
+  
+}
+
+.gridSpace6 {
+  grid-area: 4 / 1 / 7 / 2;
+  border: 2px solid black;
+}
+
+.gridSpace7 {
+  grid-area: 4 / 2 / 7 / 4;
+  border: 2px solid orange;
+}
+
+.gridSpace8 {
+  grid-area: 4 / 4 / 5 / 5;
+  border: 2px solid orangered;
+  
+}
+
+.gridSpace9 {
+  grid-area: 5 / 4 / 6 / 7;
+  border: 2px solid orchid;
+  
+}
+
+.gridSpace10 {
+  grid-area: 7 / 1 / 9 / 3;
+  border: 2px solid lightseagreen;
+}
+
+.gridSpace11 {
+  grid-area: 7 / 3 / 9 / 3;
+  border: 2px solid lightgrey;
+}
+
+.gridSpace12 {
+  grid-area: 6 / 4 / 9 / 6;
+  border: 2px solid darkmagenta;
+}
+
+.gridSpace13 {
+  grid-area: 6 / 6 / 9 / 7;
+  border: 2px solid darkmagenta;
+}

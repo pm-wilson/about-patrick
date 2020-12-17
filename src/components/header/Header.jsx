@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import styles from '../styles.css';
 import { Link } from 'react-router-dom';
 
@@ -41,7 +41,7 @@ export default function Header() {
             ${currentTab === '/contact' && styles.currentPage}
           `}>Contact</Link>
       </div>
-      <h1 className={styles.nameAtTop}>Patrick M Wilson</h1>
+      <h1 className={styles.nameAtTop}>Patrick Wilson</h1>
       <div className={styles.externalLinks}>
         <a className={styles.headerLink} target="_blank" rel="noreferrer" href="/assets/PatrickWilson.pdf">Resume</a>
         <a className={styles.headerLink} target="_blank" rel="noreferrer" href="https://github.com/pm-wilson">Github</a>

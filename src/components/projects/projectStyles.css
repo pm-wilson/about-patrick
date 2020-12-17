@@ -5,15 +5,18 @@
   padding: 50px;
   background-color: var(--color4);
   border-radius: 30px;
+  margin: 25px;
 }
 
 .sitePreview {
   overflow: hidden;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 200px;
   box-shadow: 2px 2px 5px var(--color1);
   border: 1px solid var(--color1);
-  border-radius: 15px;
+  margin: var(--small-margin);
+  margin-top: 0;
+  float: left;
 }
 
 .linkBar {
@@ -21,31 +24,20 @@
   justify-content: space-between;
   align-items: flex-end;
   color: var(--color5);
+  margin: var(--small-margin);
 }
 
-.linkBar h2 {
+.linkBar h3 {
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 50px;
 }
 
-.siteRepo {
-  height: 50px;
+.siteRepo, .siteRepo img {
+  height: auto;
   width: 50px;
 }
-.siteRepo img {
-  height: 100%;
-  width: 100%;
-}
 
-.siteDescription {
-  display: flex;
-}
-
-.siteDescription p {
-  padding: 5px;
-}
-
-a {
-  cursor: pointer;
-  text-decoration: underline;
+.siteDescription p, .projectItemArea p {
+  margin: var(--small-margin);
 }

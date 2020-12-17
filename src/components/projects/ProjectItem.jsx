@@ -6,30 +6,29 @@ export default function ProjectItem(props) {
   return (
     <div className={projectStyles.projectItemArea}>
       <div className={projectStyles.linkBar}>
-        <h2 className={projectStyles.siteTitle}>{props.project}</h2>
+        <h3 className={projectStyles.siteTitle}>{props.project}</h3>
         <a 
           className={projectStyles.siteRepo}
           rel="noreferrer"
           target="_blank"
           href={props.repoLink}
-        ><img alt="Project Github Link" src="../../../public/assets/pagepics/GitHub-Mark-64px.png"/></a>
+        ><img alt="Project Github" src="../../../public/assets/pagepics/GitHub-Mark-64px.png" /></a>
       </div>
       <div className={projectStyles.siteDescription}>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href={props.deployLink}
+        ><img
+            className={projectStyles.sitePreview}
+            src={props.pictureSource}
+            alt={props.pictureAlt}
+          />
+        </a>
         <p>{props.p1}</p>
-        <p>{props.p2}</p>
-        <p>{props.p3}</p>
+        {props.p2 && <p>{props.p2}</p>}
+        {props.p3 && <p>{props.p3}</p>}
       </div>
-      <a
-        rel="noreferrer"
-        target="_blank"
-        href={props.deployLink}
-      >
-        <img
-          className={projectStyles.sitePreview}
-          src={props.pictureSource}
-          alt={props.pictureAlt}
-        />
-      </a>
     </div>
   );
 }

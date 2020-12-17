@@ -4,10 +4,11 @@ import styles from '../styles.css';
 import { groupProjectData, soloProjectData } from './projectData';
 
 export default function Projects() {
-
-
   return (
     <div className={`${styles.projectsArea} ${styles.footerSpace}`}>
+      <h2 className={styles.projectAreaTitle}>
+        Fully Remote Team Projects &#40;{groupProjectData.length}&#41;
+      </h2>
       {groupProjectData.map(item => {
         return (
           <ProjectItem 
@@ -23,6 +24,9 @@ export default function Projects() {
           />
         );
       })}
+      <h2 className={styles.projectAreaTitle}>
+        Self Motivated Self Taught Vanilla JS Projects &#40;{soloProjectData.length}&#41;
+      </h2>
       {soloProjectData.map(item => {
         return (
           <ProjectItem
