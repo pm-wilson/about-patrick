@@ -1,0 +1,74 @@
+.gridSpace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fillText, .fillImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 1px solid var(--color1);
+  box-shadow: 2px 2px 5px var(--color1);
+}
+
+.fillText {
+  background-color: var(--color4);
+  padding: 24px;
+  margin: 0;
+  text-align: justify;
+  text-justify: inter-word;
+  box-sizing: border-box;
+} 
+
+.gridSpace1 {
+  grid-area: 1 / 1 / 4 / 3;
+}
+
+.gridSpace2 {
+  grid-area: 1 / 3 / 2 / 5;
+}
+
+.gridSpace3 {
+  grid-area: 1 / 5 / 3 / 7;
+}
+
+.gridSpace4 {
+  grid-area: 2 / 3 / 4 / 5;
+}
+
+.gridSpace5 {
+  grid-area: 3 / 5 / 5 / 7;
+}
+
+.gridSpace6 {
+  grid-area: 4 / 1 / 7 / 2;
+}
+
+.gridSpace7 {
+  grid-area: 5 / 2 / 7 / 4;
+}
+
+.gridSpace8 {
+  grid-area: 4 / 2 / 5 / 5;
+}
+
+.gridSpace9 {
+  grid-area: 5 / 4 / 6 / 7;
+}
+
+.gridSpace10 {
+  grid-area: 7 / 1 / 9 / 3;
+}
+
+.gridSpace11 {
+  grid-area: 7 / 3 / 9 / 3;
+}
+
+.gridSpace12 {
+  grid-area: 6 / 4 / 8 / 7;
+}
+
+.gridSpace13 {
+  grid-area: 8 / 4 / 9 / 7;
+}
