@@ -12,7 +12,10 @@ export default function ProjectItem(props) {
           rel="noreferrer"
           target="_blank"
           href={props.repoLink}
-        ><img alt="Project Github" src="../../../public/assets/pagepics/GitHub-Mark-64px.png" /></a>
+        ><img 
+            alt="Project Github"
+            src="../../../public/assets/pagepics/GitHub-Mark-64px.png"
+          /></a>
       </div>
       <div className={projectStyles.siteDescription}>
         <a

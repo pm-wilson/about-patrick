@@ -43,10 +43,8 @@ export default function Header() {
       </div>
       <h1 className={styles.nameAtTop}>Patrick Wilson</h1>
       <div className={styles.externalLinks}>
-        <a className={styles.headerLink} target="_blank" rel="noreferrer" href="/assets/PatrickWilson.pdf">Resume</a>
         <a className={styles.headerLink} target="_blank" rel="noreferrer" href="https://github.com/pm-wilson">Github</a>
         <a className={styles.headerLink} target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/pmwilson333/">LinkedIn</a>
-        <a className={styles.headerLink} target="_blank" rel="noreferrer" href="https://twitter.com/Patrick55487480">Twitter</a>
       </div>
     </div>
   );

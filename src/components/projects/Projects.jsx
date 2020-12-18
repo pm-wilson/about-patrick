@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <div className={`${styles.projectsArea} ${styles.footerSpace}`}>
       <h2 className={styles.projectAreaTitle}>
-        Fully Remote Team Projects &#40;{groupProjectData.length}&#41;
+        Fully Remote Team Projects Built in a One Week Sprint &#40;{groupProjectData.length}&#41;
       </h2>
       {groupProjectData.map(item => {
         return (
