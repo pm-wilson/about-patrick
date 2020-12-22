@@ -14,7 +14,7 @@ export default function ProjectItem(props) {
           href={props.repoLink}
         ><img 
             alt="Project Github"
-            src="../../../public/assets/pagepics/GitHub-Mark-64px.png"
+            src="./pagepics/GitHub-Mark-64px.png"
           /></a>
       </div>
       <div className={projectStyles.siteDescription}>
