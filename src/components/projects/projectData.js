@@ -5,7 +5,7 @@ export const groupProjectData = [{
   p2: 'I was primarily responsible for building the endpoints on the back end, page layout with React and styling with CSS on the front end. I also helped my team with bugs and design challenges as they were encountered.',
   p3: 'The main challenge of this app was getting all the data we needed to display over to the back end on a daily basis so we could control how many times our API\'s were hit to avoid over use penalties.',
   deployLink: 'https://amazine-dev.netlify.app/',
-  pictureSource: '../../../public/assets/pagepics/amazine.png',
+  pictureSource: './pagepics/amazine.png',
   pictureAlt: 'Amazine Picture',
 },
 {
@@ -15,7 +15,7 @@ export const groupProjectData = [{
   p2: 'I was responsible for the initial setup of the back end including data modeling and SQL table creation and initial wiring and testing of the controllers. I also played a lead role in designing the algorithm.',
   p3: 'This project taught me how to resolve and prevent Git merge conflicts.',
   deployLink: 'https://sherlockstocks.netlify.app/',
-  pictureSource: '../../../public/assets/pagepics/sherlockstocks.png',
+  pictureSource: './pagepics/sherlockstocks.png',
   pictureAlt: 'Sherlock Stocks Picture',
 },
 {
@@ -25,7 +25,7 @@ export const groupProjectData = [{
   p2: 'I was responsible for creating custom CSS animations and helping the team with JavaScript logic.',
   p3: 'This app taught me how to create a secure user log in experience.',
   deployLink: 'https://fervent-agnesi-b2491a.netlify.app/',
-  pictureSource: '../../../public/assets/pagepics/trulytrivial.png',
+  pictureSource: './pagepics/trulytrivial.png',
   pictureAlt: 'Truly Trivial Picture',
 },
 {
@@ -35,7 +35,7 @@ export const groupProjectData = [{
   p2: 'I played a lead role in designing the game engine and user interface.',
   p3: 'This app taught me the importance of testing code as you go to avoid larger issues later.',
   deployLink: 'https://cosmic-checkers.github.io/Cosmic-Checkers/',
-  pictureSource: '../../../public/assets/pagepics/cosmiccheckers.png',
+  pictureSource: './pagepics/cosmiccheckers.png',
   pictureAlt: 'Cosmic Checkers Picture',
 }];
 
@@ -47,7 +47,7 @@ export const soloProjectData = [
     p2: 'This app features a fully interactive game map dynamically built with data stored in a config variable, related data relationships used to minimize repeated data and speed up search times, and an options page that toggles features on and off independently.',
     p3: 'Developing this app was the first project in my development career and taught me the foundations of everything I know in vanilla JS. I learned how to debug complex issues, how to organize variables and manage state. I also learned how to move data from the clipboard into a web page, interact with the DOM dynamically and use Bootstrap for styling.',
     deployLink: 'https://pm-wilson.github.io/solo-world-domination/',
-    pictureSource: '../../../public/assets/pagepics/worlddomination.png',
+    pictureSource: './pagepics/worlddomination.png',
     pictureAlt: 'World Domination Picture',
   },
   {
@@ -57,6 +57,6 @@ export const soloProjectData = [
     p2: 'This app includes an algorithm that rotates and mirrors the board to look for a matching game pattern to avoid moves that would otherwise make it lose. By building it in this way I was able to save thousands of lines of code and tedious instances that could introduce errors when programming the unbeatable version you see here.',
     p3: 'Hint, to roll the game back to a beatable version, run this in the console "gameVars.difficulty=0"',
     deployLink: 'https://pm-wilson.github.io/solo-tic-tac-toe/',
-    pictureSource: '../../../public/assets/pagepics/tictactoe.png',
+    pictureSource: './pagepics/tictactoe.png',
     pictureAlt: 'Tic Tac Toe Picture',
   }];

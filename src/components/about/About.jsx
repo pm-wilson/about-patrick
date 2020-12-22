@@ -1,6 +1,15 @@
 import React from 'react';
 import styles from '../styles.css';
 import aboutStyles from './aboutStyles.css';
+import hikingPic from '../../../public/aboutpics/hiking.jpg';
+import golfPic from '../../../public/aboutpics/golf.jpg';
+import bikePic from '../../../public/aboutpics/bike.jpg';
+import bakingPic from '../../../public/aboutpics/baking.jpg';
+import treePic from '../../../public/aboutpics/tree.jpg';
+import gamesPic from '../../../public/aboutpics/games.jpg';
+import medalsPic from '../../../public/aboutpics/medals.jpg';
+import crossbowPic from '../../../public/aboutpics/crossbow.jpg';
+import deskPic from '../../../public/aboutpics/desk.jpg';
 
 export default function About() {
   return (
@@ -8,7 +17,7 @@ export default function About() {
       <div className={`${aboutStyles.gridSpace} ${aboutStyles.gridSpace1}`}>
         <img 
           className={aboutStyles.fillImage}
-          src="../../../public/assets/aboutpics/hiking.jpg"
+          src={hikingPic}
           alt="Hiking Coyote Rock Wall"
         />
       </div>
@@ -20,7 +29,7 @@ export default function About() {
       <div className={`${aboutStyles.gridSpace} ${aboutStyles.gridSpace3}`}>
         <img
           className={aboutStyles.fillImage}
-          src="../../../public/assets/aboutpics/golf.jpg"
+          src={golfPic}
           alt="Me Golfing"
         />
       </div>
@@ -28,7 +37,7 @@ export default function About() {
       <div className={`${aboutStyles.gridSpace} ${aboutStyles.gridSpace4}`}>
         <img
           className={aboutStyles.fillImage}
-          src="../../../public/assets/aboutpics/bike.jpg"
+          src={bikePic}
           alt="Me and My Bike"
         />
       </div>
@@ -36,7 +45,7 @@ export default function About() {
       <div className={`${aboutStyles.gridSpace} ${aboutStyles.gridSpace5}`}>
         <img
           className={aboutStyles.fillImage}
-          src="../../../public/assets/aboutpics/baking.jpg"
+          src={bakingPic}
           alt="Fresh Baked Bread"
         />
       </div>
@@ -44,7 +53,7 @@ export default function About() {
       <div className={`${aboutStyles.gridSpace} ${aboutStyles.gridSpace6}`}>
         <img
           className={aboutStyles.fillImage}
-          src="../../../public/assets/aboutpics/tree.jpg"
+          src={treePic}
           alt="Crooked Tree"
         />
       </div>
@@ -52,7 +61,7 @@ export default function About() {
       <div className={`${aboutStyles.gridSpace} ${aboutStyles.gridSpace7}`}>
         <img
           className={aboutStyles.fillImage}
-          src="../../../public/assets/aboutpics/games.jpg"
+          src={gamesPic}
           alt="Magic and Dungeons and Dragons Items"
         />
       </div>
@@ -68,7 +77,7 @@ export default function About() {
       <div className={`${aboutStyles.gridSpace} ${aboutStyles.gridSpace10}`}>
         <img
           className={aboutStyles.fillImage}
-          src="../../../public/assets/aboutpics/medals.jpg"
+          src={medalsPic}
           alt="My Running Medals"
         />
       </div>
@@ -76,7 +85,7 @@ export default function About() {
       <div className={`${aboutStyles.gridSpace} ${aboutStyles.gridSpace11}`}>
         <img
           className={aboutStyles.fillImage}
-          src="../../../public/assets/aboutpics/crossbow.jpg"
+          src={crossbowPic}
           alt="Lego Crossbow"
         />
       </div>
@@ -84,7 +93,7 @@ export default function About() {
       <div className={`${aboutStyles.gridSpace} ${aboutStyles.gridSpace12}`}>
         <img
           className={aboutStyles.fillImage}
-          src="../../../public/assets/aboutpics/desk.jpg"
+          src={deskPic}
           alt="Desk I built"
         />
       </div>
