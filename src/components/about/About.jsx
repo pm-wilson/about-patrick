@@ -67,11 +67,11 @@ export default function About() {
       </div>
 
       <div className={`${aboutStyles.gridSpace} ${aboutStyles.gridSpace8}`}>
-        <p className={aboutStyles.fillText}>I enjoy playing some of the most complex games on the planet and I believe they have given me a good head for coding.</p>
+        <p className={aboutStyles.fillText}>Playing some of the most complex games I could find has taught me to break complex tasks into simple steps while keeping an eye on the big picture.</p>
       </div>
 
       <div className={`${aboutStyles.gridSpace} ${aboutStyles.gridSpace9}`}>
-        <p className={aboutStyles.fillText}>I stay healthy by running and cycling, and balance it out by baking amazing bread and cooking dishes from all over the world.</p>
+        <p className={aboutStyles.fillText}>I stay healthy by running and cycling, and balance it out by baking amazing bread and cooking dishes from around the world.</p>
       </div>
 
       <div className={`${aboutStyles.gridSpace} ${aboutStyles.gridSpace10}`}>
